@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.nat_developer_1.demo"
+        applicationId "com.joe13th.customcalender"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
@@ -30,5 +30,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation project(':com.natsaudi.library.android.calander')
+    implementation project(':com.joe13th.customcalender')
 }
