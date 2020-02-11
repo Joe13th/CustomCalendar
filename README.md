@@ -41,6 +41,7 @@ All Additionial Attrributes are explained in the Project [Wiki](https://github.c
 
 ## Author
 
+[JOE13](https://github.com/Joe13th/)
 [Reham Alatris](https://github.com/reham-alatris)
 
 ## License
