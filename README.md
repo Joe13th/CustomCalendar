@@ -16,19 +16,19 @@ in the root build.gradle
 
  Add the dependency
 
-	dependencies {
-	        implementation 'com.github.NatSaudi:NatSaudiCalendar:v1'
+		dependencies {
+	        implementation 'com.github.Joe13th:CustomCalendar:v1'
 	}
 
 ## How to use
 
 first : declare the view in the layout XML
 ```xml
-  <com.example.comnatsaudilibraryandroidcalander.CustomCalendarView
+   <com.joe13th.customcalender.View
         android:layout_width="match_parent"
         android:id="@+id/custom"
         android:layout_height="wrap_content">
-    </com.example.comnatsaudilibraryandroidcalander.CustomCalendarView>
+    </com.joe13th.customcalender.View>
 ```
 
 second : refer to it's ID in Activity JAVA
@@ -37,7 +37,7 @@ second : refer to it's ID in Activity JAVA
 custom = (CustomCalendarView) findViewById(R.id.custom);
 
 ```
-All Additionial Attrributes are explained in the Project [Wiki](https://github.com/reham-alatris/CustomCalendar/wiki/)
+All Additionial Attrributes are explained in the Project [Wiki](https://github.com/Joe13th/CustomCalendar/wiki/Tutorial)
 
 ## Author
 
