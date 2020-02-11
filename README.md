@@ -34,7 +34,7 @@ first : declare the view in the layout XML
 second : refer to it's ID in Activity JAVA
 ```java
 
-custom = (CustomCalendarView) findViewById(R.id.custom);
+custom = (View) findViewById(R.id.custom);
 
 ```
 All Additionial Attrributes are explained in the Project [Wiki](https://github.com/Joe13th/CustomCalendar/wiki/Tutorial)
